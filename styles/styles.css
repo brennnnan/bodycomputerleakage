@@ -19,7 +19,6 @@ p {
 	font-size: 48px;
 	font-family: 'Fontovision', serif;
 	margin: 20px auto;
-	display: flex;
 	margin-top: 100px;
 
 }
@@ -30,6 +29,7 @@ p {
 
 #mainContainer {
 	display: flex;
+	align-items: center;
 	width: 80%;
 	margin:0 auto;
 	position: relative;
