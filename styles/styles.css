@@ -24,6 +24,10 @@ p {
 
 }
 
+#currentVideo {
+	margin: 0 auto;
+}
+
 #mainContainer {
 	display: flex;
 	width: 80%;
