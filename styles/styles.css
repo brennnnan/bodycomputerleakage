@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'Fontovision';
+	src: url('../fonts/fontout-webfont.woff2') format('woff2'),
+		url('../fonts/fontout-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Fontovisionregular';
+	src: url('../fonts/fontrg-webfont.woff2') format('woff2'),
+		 url('../fonts/fontrg-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
+p {
+	color: #11E611 !important;
+	font-size: 48px;
+	font-family: 'Fontovision', serif;
+	margin: 20px auto;
+	display: flex;
+	margin-top: 100px;
+
+}
+
+
+#mainContainer {
+	display: flex;
+	width: 80%;
+	margin:0 auto;
+	position: relative;
+	flex-direction: column;
+}
+
+.myButton {
+	background-color:#11E611;
+	display: flex;
+	align-self: center;
+	border-radius:15px;
+	border:1px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	width: 28%;
+	font-family: 'Fontovisionregular';
+	letter-spacing: 2px;
+	font-size:18px;
+	padding:16px 31px;
+	text-decoration:none;
+	margin-top: 40px;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+
