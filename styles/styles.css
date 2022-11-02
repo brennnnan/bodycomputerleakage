@@ -36,6 +36,11 @@ p {
 	flex-direction: column;
 }
 
+#otherContainer {
+	width: 80%;
+	margin:0 auto;
+}
+
 .myButton {
 	background-color:#11E611;
 	display: flex;
