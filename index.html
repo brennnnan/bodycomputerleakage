@@ -1,6 +1,5 @@
 <!doctype html>
-<html>
-
+<html lang="en">
 <head>
 	<title>Body Computer Leakage</title>
 	<link rel="stylesheet" href="styles/styles.css">
@@ -18,11 +17,10 @@
 
 
 	<script>
-
-
+		// function redirects window to one of the AR filters
 		function kat() {
-			const filterArray = ['atextr', 'btextr', 'ctextr', 'dtextr', 'etextr', 'ftextr', 'gtextr', 'htextr']
-			var randomFilterIndex = Math.floor(Math.random() * 8)
+			const filterArray = ['atextr', 'btextr', 'ctextr', 'dtextr', 'etextr', 'ftextr', 'htextr']
+			var randomFilterIndex = Math.floor(Math.random() * 7)
 			var randomFilter = 'https://' + filterArray[randomFilterIndex] + '.bodycomputerleakage.xyz/'
 			window.location = randomFilter
 		}

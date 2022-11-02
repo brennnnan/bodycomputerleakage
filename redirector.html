@@ -2,7 +2,6 @@
 <html>
 
 <head>
-	<script src="//cdn.8thwall.com/web/iframe/iframe.js"></script>
 	<title>Body Computer Leakage</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png">
@@ -11,7 +10,7 @@
 </head>
 
 <body style="background: black;">
-	<video id='currentVideo' controls="" width="90%" autoplay="true" src="" type="video/mp4" class="media-document mac video"></video>
+	<video id='currentVideo' controls="" width="90%" autoplay="" src="" type="video/mp4" class="media-document mac video"></video>
 	<script>
 		var v = document.getElementById('currentVideo');
 		const videoArray = ['a.mp4', 'b.mp4', 'c.mp4', 'd.mp4', 'e.mp4', 'f.mp4', 'g.mp4', 'h.mp4', 'i.mp4', 'j.mp4', 'k.mp4', 'l.mp4', 'm.mp4', 'n.mp4', 'o.mp4', 'p.mp4', 'q.mp4', 'r.mp4', 's.mp4', 't.mp4', 'u.mp4', 'v.mp4']
@@ -19,8 +18,8 @@
 		var videoURL = 'https://bodycomputerleakage.s3-us-west-1.amazonaws.com/bcl_vids/' + videoArray[randomVideoIndex]
 		v.src = videoURL
 
-		const filterArray = ['atextr', 'btextr', 'ctextr', 'dtextr', 'etextr', 'ftextr', 'gtextr', 'htextr']
-		var randomFilterIndex = Math.floor(Math.random() * 8)
+		const filterArray = ['atextr', 'btextr', 'ctextr', 'dtextr', 'etextr', 'ftextr', 'htextr']
+		var randomFilterIndex = Math.floor(Math.random() * 7)
 		var randomFilter = 'https://' + filterArray[randomFilterIndex] + '.bodycomputerleakage.xyz/'
 
 		//v.play();
