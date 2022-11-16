@@ -20,7 +20,16 @@ p {
 	font-family: 'Fontovision', serif;
 	margin: 20px auto;
 	margin-top: 100px;
+}
 
+h4 {
+	color: #11E611 !important;
+	font-size: 40px;
+	font-family: 'Fontovision', serif;
+	margin: 20px auto;
+	margin-top: 100px;
+	position: absolute;
+	bottom: 20%;
 }
 
 #currentVideo {
@@ -31,6 +40,7 @@ p {
 	display: flex;
 	align-items: center;
 	width: 80%;
+	height: 100vh;
 	margin:0 auto;
 	position: relative;
 	flex-direction: column;
